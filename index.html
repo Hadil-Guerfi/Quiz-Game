@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/c2830f4bfb.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  
+  
+<div class="welcome-page">
+  <div class="container">
+    <div class="image">
+      <img src="designs/quiz-time.png" alt="">
+    </div>
+
+    <div class="welcome-buttons">
+      <a href="#main-page" class="play">Themes To Play</a>
+      <a href="#rules-page" class="rules">How To Play</a>
+
+    </div>
+
+  </div>
+</div>
+
+
+ <div class="rules-page" id="rules-page">
+
+  <div class="container">
+    <i class="fa-regular fa-circle-left fa-2x"></i>
+    <h2> Rules</h2>
+
+  <div class="content">
+    <div class="rules-text">
+  1.Select the theme as you like
+  <br>
+  2.You will have only 10 seceonds per each question.
+  <br>
+  3.Once you select your answer , it can't be undone.
+  <br>
+  4.Yout can't select any option once time goes off
+  <br>
+  5.You can exit from the Quiz while you're playing
+  <br>
+  6.You will get points on the basis of your correct answers
+</div>
+
+</div>
+ 
+
+  </div>
+</div>
+
+  <div class="main-page" id="main-page" >
+     
+    <div class="container">
+      
+        <div class="header">
+          <i class="fa-regular fa-circle-left fa-2x"></i>
+         <h2 class="quiz-title"> Themes</h2>
+        </div>
+
+        <div class="boxes">
+
+        <div class="box sport">
+          <div class="face img">
+            <div class="content">
+             <img src="images/sport.png" alt="">
+             <h2>Sport</h2>
+            </div>
+          </div>
+          <div class="face text">
+            <div class="content">
+             <a href="#sport">Try Now</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="box travel">
+          <div class="face img">
+            <div class="content">
+             <img src="images/travel.png" alt="">
+             <h2>Travel</h2>
+            </div>
+          </div>
+          <div class="face text">
+            <div class="content">
+             <a href="#travel">Try Now</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="box art">
+          <div class="face img">
+            <div class="content">
+             <img src="images/art.png" alt="">
+             <h2>Art</h2>
+            </div>
+          </div>
+          <div class="face text">
+            <div class="content">
+              <a href="#art">Try Now</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="box science">
+          <div class="face img">
+            <div class="content">
+              <!-- <img src="images/science.png" alt=""> -->
+              <img src="images/robot.png" alt="">
+
+              <h2>Technology</h2>
+            </div>
+          </div>
+          <div class="face text">
+            <div class="content">
+              <a href="#science">Try Now</a>
+            </div>
+           </div>
+          </div>
+
+
+        <div class="box literature">
+           <div class="face img">
+             <div class="content">
+              <img src="images/literature.png" alt="">
+              <h2>Literature</h2>
+             </div>
+           </div>
+          <div class="face text">
+            <div class="content">
+              <a href="#literature">Try Now</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div> 
+  </div>
+   
+  <!--  -->
+
+<section class="sport section" id="sport">
+  <div class="container">       
+
+       <div class="heading">
+
+        <div class="exit-button">
+          <i class="fa-regular fa-circle-xmark fa-2x	"></i>
+        </div>
+
+        <div class="time-counter"></div>
+
+       <div class="heartCorner">
+         <div class="nbr-correct-answer "></div>
+         <i class="fa-solid fa-heart fa-2x" ></i>
+
+        </div>
+
+       </div>
+
+    <div class="img-content"></div>
+
+    <div class="text-content">
+      <div class="question-counter"></div>
+       <div class="question"></div>
+    </div>
+
+      <div class="answers"> 
+        <audio src="images/correct-answer-sound-effect_aNrlv97R.mp3" class="correct-audio"></audio>
+        <audio src="images/wrong-answer-sound-effect-no-copyright_VhxCn9hy.mp3" class="wrong-audio"></audio>
+
+        <div class="listOfAnswers"></div>
+
+      </div>
+      
+    <div class="foot">
+      
+      <div class="bullets"> </div>
+   
+      <input type="submit" value="Next Question" name="" id="">
+
+    </div>
+     
+    <div class="final">
+
+      <div class="win finalElt">
+        <h2>You Won</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/Animated-Present-Box-unscreen.gif" alt="">
+      </div>
+    
+      <div class="very-good finalElt">
+        <h2>Very Good</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/very good.png" alt="">
+      </div>
+      
+      <div class="good finalElt">
+        <h2>Good</h2>
+        <div class="score"></div>
+        <audio  src="images/Good.mp3"></audio>
+        <img src="images/good.png" alt="">
+      </div>
+      
+      <div class="not-bad finalElt">
+        <h2>Not Bad</h2>
+        <div class="score"></div>
+        <audio  src="images/notBad.mp3"></audio>
+        <img src="images/not bad.png" alt="">
+      </div>
+
+      <div class="next-time finalElt">
+        <h2>You Can Do Better</h2>
+        <div class="score"></div>
+        <audio loop  src="images/doBetter.mp3"></audio>
+        <img src="images/do better.png" alt="">
+      </div>
+    
+    </div>
+
+ </div>
+</section>
+
+  <!--  -->
+
+<section class="travel section" id="travel">
+  <div class="container">       
+
+       <div class="heading">
+
+        <div class="exit-button">
+          <i class="fa-regular fa-circle-xmark fa-2x	"></i>
+        </div>
+
+        <div class="time-counter"></div>
+
+       <div class="heartCorner">
+         <div class="nbr-correct-answer"></div>
+         <i class="fa-solid fa-heart fa-2x" ></i>
+        </div>
+
+       </div>
+
+    <div class="img-content"></div>
+
+    <div class="text-content">
+      <div class="question-counter"></div>
+       <div class="question"></div>
+    </div>
+
+    <div class="answers">
+
+      <audio src="images/correct-answer-sound-effect_aNrlv97R.mp3" class="correct-audio" ></audio>
+      <audio src="images/wrong-answer-sound-effect-no-copyright_VhxCn9hy.mp3" class="wrong-audio"></audio>
+
+      <div class="listOfAnswers"></div>
+
+    </div>
+      
+    <div class="foot">
+      
+      <div class="bullets"> </div>
+   
+      <input type="submit" value="Submit Answer" name="" id="">
+
+    </div>
+   
+    <div class="final">
+
+          <div class="win finalElt">
+        <h2>You Won</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/Animated-Present-Box-unscreen.gif" alt="">
+      </div>
+    
+      <div class="very-good finalElt">
+        <h2>Very Good</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/very good.png" alt="">
+      </div>
+      
+      <div class="good finalElt">
+        <h2>Good</h2>
+        <div class="score"></div>
+        <audio  src="images/Good.mp3"></audio>
+        <img src="images/good.png" alt="">
+      </div>
+      
+      <div class="not-bad finalElt">
+        <h2>Not Bad</h2>
+        <div class="score"></div>
+        <audio  src="images/notBad.mp3"></audio>
+        <img src="images/not bad.png" alt="">
+      </div>
+
+      <div class="next-time finalElt">
+        <h2>You Can Do Better</h2>
+        <div class="score"></div>
+        <audio loop  src="images/doBetter.mp3"></audio>
+        <img src="images/do better.png" alt="">
+      </div>
+
+    </div>
+
+ </div>
+</section>
+
+
+  <!--  -->
+
+<section class="art section" id="art">
+  <div class="container">       
+
+       <div class="heading">
+
+        <div class="exit-button">
+          <i class="fa-regular fa-circle-xmark fa-2x	"></i>
+        </div>
+
+        <div class="time-counter"></div>
+
+       <div class="heartCorner">
+         <div class="nbr-correct-answer"></div>
+         <i class="fa-solid fa-heart fa-2x" ></i>
+        </div>
+
+       </div>
+
+    <div class="img-content"></div>
+
+    <div class="text-content">
+      <div class="question-counter"></div>
+       <div class="question"></div>
+    </div>
+
+      <div class="answers">
+      
+      <audio src="images/correct-answer-sound-effect_aNrlv97R.mp3" class="correct-audio"></audio>
+      <audio src="images/wrong-answer-sound-effect-no-copyright_VhxCn9hy.mp3" class="wrong-audio"></audio>
+      <div class="listOfAnswers">
+      </div>
+
+    </div>
+      
+    <div class="foot">
+      
+      <div class="bullets"> </div>
+   
+      <input type="submit" value="Submit Answer" name="" id="">
+
+    </div>
+    
+    <div class="final">
+
+      <div class="win finalElt">
+        <h2>You Won</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/Animated-Present-Box-unscreen.gif" alt="">
+      </div>
+    
+      <div class="very-good finalElt">
+        <h2>Very Good</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/very good.png" alt="">
+      </div>
+      
+      <div class="good finalElt">
+        <h2>Good</h2>
+        <div class="score"></div>
+        <audio  src="images/Good.mp3"></audio>
+        <img src="images/good.png" alt="">
+      </div>
+      
+      <div class="not-bad finalElt">
+        <h2>Not Bad</h2>
+        <div class="score"></div>
+        <audio  src="images/notBad.mp3"></audio>
+        <img src="images/not bad.png" alt="">
+      </div>
+
+      <div class="next-time finalElt">
+        <h2>You Can Do Better</h2>
+        <div class="score"></div>
+        <audio loop  src="images/doBetter.mp3"></audio>
+        <img src="images/do better.png" alt="">
+      </div>
+    </div>
+
+ </div>
+</section>
+
+<!--  -->
+
+<section class="science section" id="science">
+  <div class="container">       
+
+       <div class="heading">
+
+        <div class="exit-button">
+          <i class="fa-regular fa-circle-xmark fa-2x	"></i>
+        </div>
+
+        <div class="time-counter"></div>
+
+       <div class="heartCorner">
+         <div class="nbr-correct-answer"></div>
+         <i class="fa-solid fa-heart fa-2x" ></i>
+        </div>
+
+       </div>
+
+    <div class="img-content"></div>
+
+    <div class="text-content">
+      <div class="question-counter"></div>
+       <div class="question"></div>
+    </div>
+
+    <div class="answers">
+      
+      <audio src="images/correct-answer-sound-effect_aNrlv97R.mp3" class="correct-audio"></audio>
+      <audio src="images/wrong-answer-sound-effect-no-copyright_VhxCn9hy.mp3" class="wrong-audio"></audio>
+      <div class="listOfAnswers">
+      </div>
+
+    </div>
+
+    <div class="foot">
+      
+      <div class="bullets"> </div>
+   
+      <input type="submit" value="Submit Answer" name="" id="">
+
+    </div>
+    
+    <div class="final">
+
+      <div class="win finalElt">
+        <h2>You Won</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/Animated-Present-Box-unscreen.gif" alt="">
+      </div>
+    
+      <div class="very-good finalElt">
+        <h2>Very Good</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/very good.png" alt="">
+      </div>
+      
+      <div class="good finalElt">
+        <h2>Good</h2>
+        <div class="score"></div>
+        <audio  src="images/Good.mp3"></audio>
+        <img src="images/good.png" alt="">
+      </div>
+      
+      <div class="not-bad finalElt">
+        <h2>Not Bad</h2>
+        <div class="score"></div>
+        <audio  src="images/notBad.mp3"></audio>
+        <img src="images/not bad.png" alt="">
+      </div>
+
+      <div class="next-time finalElt">
+        <h2>You Can Do Better</h2>
+        <div class="score"></div>
+        <audio loop  src="images/doBetter.mp3"></audio>
+        <img src="images/do better.png" alt="">
+      </div>
+
+    </div>
+
+ </div>
+</section>
+
+<!--  -->
+
+<section class="literature section" id="literature">
+  <div class="container">       
+
+       <div class="heading">
+
+        <div class="exit-button">
+          <i class="fa-regular fa-circle-xmark fa-2x	"></i>
+        </div>
+
+        <div class="time-counter"></div>
+
+       <div class="heartCorner">
+         <div class="nbr-correct-answer"></div>
+         <i class="fa-solid fa-heart fa-2x" ></i>
+        </div>
+
+       </div>
+
+    <div class="img-content"></div>
+
+    <div class="text-content">
+      <div class="question-counter"></div>
+       <div class="question"></div>
+    </div>
+
+  <div class="answers">
+      
+      <audio src="images/correct-answer-sound-effect_aNrlv97R.mp3" class="correct-audio"></audio>
+      <audio src="images/wrong-answer-sound-effect-no-copyright_VhxCn9hy.mp3" class="wrong-audio"></audio>
+      <div class="listOfAnswers">
+      </div>
+
+    </div>
+
+    <div class="foot">
+      
+      <div class="bullets"> </div>
+   
+      <input type="submit" value="Submit Answer" name="" id="">
+
+    </div>
+    
+    <div class="final">
+
+      <div class="win finalElt">
+        <h2>You Won</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/Animated-Present-Box-unscreen.gif" alt="">
+      </div>
+    
+      <div class="very-good finalElt">
+        <h2>Very Good</h2>
+        <div class="score"></div>
+        <audio loop src="images/VeryGood-Won.mp3"></audio>
+        <img src="images/very good.png" alt="">
+      </div>
+      
+      <div class="good finalElt">
+        <h2>Good</h2>
+        <div class="score"></div>
+        <audio  src="images/Good.mp3"></audio>
+        <img src="images/good.png" alt="">
+      </div>
+      
+      <div class="not-bad finalElt">
+        <h2>Not Bad</h2>
+        <div class="score"></div>
+        <audio  src="images/notBad.mp3"></audio>
+        <img src="images/not bad.png" alt="">
+      </div>
+
+      <div class="next-time finalElt">
+        <h2>You Can Do Better</h2>
+        <div class="score"></div>
+        <audio loop  src="images/doBetter.mp3"></audio>
+        <img src="images/do better.png" alt="">
+      </div>
+ 
+    </div>
+
+ </div>
+</section>
+
+  
+ 
+    <script src="main.js"></script>
+  </body>
+</html>

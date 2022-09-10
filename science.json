@@ -1,0 +1,103 @@
+[{
+    "question":"Which duo invented the aeroplane?",
+    "answer_1":"TeletypMarie and Pierre Curiee",
+    "answer_2":"Marie and Pierre Curie",
+    "answer_3":"Felix Unger and Oscar Madison",
+    "answer_4":"Orville and Wilbur Wright",
+    "right_answer":"Orville and Wilbur Wright",
+    "img":"science-images/qst1.jfif"
+},
+
+{
+    "question":"what is laser made from?",
+    "answer_1":"Photons",
+    "answer_2":"Light",
+    "answer_3":"Energy",
+    "answer_4":"Wind",
+    "right_answer":"Photons",
+    "img":"science-images/qst2.jpeg"
+},
+
+{
+    
+    "question":"When was the first email sent over the internet?",
+    "answer_1":"1961",
+    "answer_2":"1965",
+    "answer_3":"1971",
+    "answer_4":"1988",
+    "right_answer":"1971",
+    "img":"science-images/qst3.png"
+},
+
+{
+    "question":"Who founded Apple Computer?",
+    "answer_1":"Sundar Pichai",
+    "answer_2":"Bill Gates",
+    "answer_3":"Steve Jobs",
+    "answer_4":"Sheryl Sandberg",
+    "right_answer":"Steve Jobs",
+    "img":"science-images/qst4.png"
+
+},
+{
+    "question":"What does the Internet prefix WWW stand for?",
+    "answer_1":"World Wide Web",
+    "answer_2":"Western Washington Web",
+    "answer_3":"World Wide Weather",
+    "answer_4":"Wide Wide Wickets",
+    "right_answer":"World Wide Web",
+    "img":"science-images/qst5.png"
+
+},
+{
+    "question":"What is the name of the satellite which crossed the edge of our solar system?",
+    "answer_1":"Challenger",
+    "answer_2":"Voyager",
+    "answer_3":"Rosetta",
+    "answer_4":"Tennis",
+    "right_answer":"Voyager",
+    "img":"science-images/qst6.jpg"
+
+},
+
+{
+    "question":"Which of the following waves are used by the common TV remote control?",
+    "answer_1":"Radio Wave",
+    "answer_2":"Ultraviolet waves",
+    "answer_3":"Infrared waves",
+    "answer_4":" Ultrasonic waves",
+    "right_answer":"Infrared waves",
+    "img":"science-images/qst7.png"
+},
+
+{
+    "question":"What operating system did Google develop?",
+    "answer_1":"Windows",
+    "answer_2":"BlackBerry OS",
+    "answer_3":"iOS",
+    "answer_4":"Android",
+    "right_answer":"Android",
+    "img":"science-images/qst8.jfif"
+},
+
+{
+    "question":"The first robotic dinosaur was created in 2001. Which dinosaur species was it modeled after?",
+    "answer_1":"Apatosaurus",
+    "answer_2":"Troodon",
+    "answer_3":"Trex",
+    "answer_4":"Triceratops",
+    "right_answer":"Troodon",
+    "img":"science-images/qst9.jpg"
+},
+
+{
+    "question":" What year was the world’s first mobile phone handset released for sale?",
+    "answer_1":"1979",
+    "answer_2":"1983",
+    "answer_3":"1991",
+    "answer_4":"2001",
+    "right_answer":"1983",
+    "img":"science-images/qst10.png"
+}
+
+]

@@ -1,0 +1,103 @@
+[{
+    "question":"Name That Author: Who wrote The Iliad?",
+    "answer_1":"Euripides",
+    "answer_2":"Beowulf",
+    "answer_3":"Homer",
+    "answer_4":"Virgil",
+    "right_answer":"Homer",
+    "img":"literature-images/qst1.jfif"
+},
+
+{
+    "question":" John Donne is known as a member of which school of poetry?",
+    "answer_1":"Romanticism",
+    "answer_2":"Jacobean",
+    "answer_3":"Georgian",
+    "answer_4":"Metaphysical",
+    "right_answer":"Metaphysical",
+    "img":"literature-images/qst2.jfif"
+},
+
+{
+    "question":" John Milton’s Paradise Lost was written during which century?",
+    "answer_1":"1400’s",
+    "answer_2":"1500’s",
+    "answer_3":" 1600’s",
+    "answer_4":"1700’s",
+    "right_answer":"1700’s",
+    "img":"literature-images/qst3.jfif"
+
+},
+
+{
+    "question":"Sir Walter Scott is known for his historical novels about which country?",
+    "answer_1":"Ireland",
+    "answer_2":"Scotland",
+    "answer_3":"Wales",
+    "answer_4":"England",
+    "right_answer":"Scotland",
+    "img":"literature-images/qst4.jfif"
+
+},
+{
+    "question":" Who is the heroine of Nathaniel Hawthorne’s The Scarlet Letter?",
+    "answer_1":"Anne Hutchinson",
+    "answer_2":" Emily Shelby",
+    "answer_3":"Agnes Grey",
+    "answer_4":"Hester Prynne",
+    "right_answer":"Hester Prynne",
+    "img":"literature-images/qst5.jfif"
+
+},
+{
+    "question":"Who wrote The Electric Kool-Aid Acid Test?",
+    "answer_1":"William S. Burroughs",
+    "answer_2":" Hunter S. Thompson",
+    "answer_3":"Ken Kesey",
+    "answer_4":"Tom Wolfe",
+    "right_answer":"Tom Wolfe",
+    "img":"literature-images/qst6.jfif"
+
+},
+
+{
+    "question":"Who is the protagonist of James Joyce’s Ulysses?",
+    "answer_1":"Leopold Bloom",
+    "answer_2":"Leopold Ulysses",
+    "answer_3":"Ulysses Bloom",
+    "answer_4":"Homer Bloom",
+    "right_answer":"Leopold Ulysses",
+    "img":"literature-images/qst7.jfif"
+},
+
+{
+    "question":"Name That Author: Who wrote the noir classic The Maltese Falcon?",
+    "answer_1":"James Ellory",
+    "answer_2":"Dashiell Hammett",
+    "answer_3":"James M. Cain",
+    "answer_4":"Raymond Chandler",
+    "right_answer":"Dashiell Hammett",
+    "img":"literature-images/qst8.jfif"
+},
+
+{
+    "question":"Which is NOT a poem by Emily Dickinson?",
+    "answer_1":"Hope’ is the thing with feathers",
+    "answer_2":"Because I could not stop for Death",
+    "answer_3":"Acquainted with the night",
+    "answer_4":"I felt a Funeral, in my Brain",
+    "right_answer":"Acquainted with the night",
+    "img":"literature-images/qst9.jfif"
+},
+
+{
+    "question":"Who wrote Romeoo and Juliet",
+    "answer_1":"William Shakespeare",
+    "answer_2":"Anne-Laure Chat",
+    "answer_3":"Germaine Landre",
+    "answer_4":"Gisèle Venet",
+    "right_answer":"William Shakespeare",
+    "img":"literature-images/qst10.jfif"
+}
+
+]

@@ -1,0 +1,103 @@
+[{
+    "question":"The Olympics are held every how many years?",
+    "answer_1":"1 years",
+    "answer_2":"2 years",
+    "answer_3":"3 years",
+    "answer_4":"4 years",
+    "right_answer":"4 years",
+    "img":"sport-images/qst1.png"
+},
+
+{
+    "question":"How many holes are played in an average round of golf?",
+    "answer_1":"13",
+    "answer_2":"15",
+    "answer_3":"18",
+    "answer_4":"20",
+    "right_answer":"18",
+    "img":"sport-images/qst2.png"
+},
+
+{
+    "question":"What African country was the first ever to qualify for a World Cup?",
+    "answer_1":"Tunisia",
+    "answer_2":"Egypte",
+    "answer_3":"Marroco",
+    "answer_4":"Alergia",
+    "right_answer":"Egypte",
+    "img":"sport-images/qst3.png"
+
+},
+
+{
+    "question":"In motor racing, what color is the flag they wave to indicate the winner?",
+    "answer_1":"Checkered flag",
+    "answer_2":"black flag",
+    "answer_3":"red flag",
+    "answer_4":"green flag",
+    "right_answer":"Checkered flag",
+    "img":"sport-images/qst4.png"
+
+},
+{
+    "question":"How long is a marathon?",
+    "answer_1":"26.2 miles",
+    "answer_2":"27 miles",
+    "answer_3":"28.2 miles",
+    "answer_4":"30 miles",
+    "right_answer":"26.2 miles",
+    "img":"sport-images/qst5.png"
+
+},
+{
+    "question":"Question: In what game is “love” a score?",
+    "answer_1":"BasketBall",
+    "answer_2":"golf",
+    "answer_3":"volleyball",
+    "answer_4":"Tennis",
+    "right_answer":"Tennis",
+    "img":"sport-images/qst6.png"
+
+},
+
+{
+    "question":"How many players are on a baseball team?",
+    "answer_1":"6",
+    "answer_2":"7",
+    "answer_3":"9",
+    "answer_4":"11",
+    "right_answer":"9",
+    "img":"sport-images/qst7.png" 
+},
+
+{
+    "question":"Which boxer fought against Muhammad Ali and won?",
+    "answer_1":"Joe Frazier",
+    "answer_2":"Ernie Terrell",
+    "answer_3":"Jimmy Ellis",
+    "answer_4":"Sonny Liston",
+    "right_answer":"Joe Frazier",
+    "img":"sport-images/qst8.png" 
+},
+
+{
+    "question":"What’s the national sport of Canada?",
+    "answer_1":"Sky Diving",
+    "answer_2":"Lacrosse",
+    "answer_3":"Volleyball",
+    "answer_4":"Cycling",
+    "right_answer":"Lacrosse",
+    "img":"sport-images/qst9.png" 
+},
+
+{
+    "question":"Which sport has been played on the moon?",
+    "answer_1":"Badminton",
+    "answer_2":"Tennis",
+    "answer_3":"Running",
+    "answer_4":"Golf",
+    "right_answer":"Golf",
+    "img":"sport-images/qst10.png" 
+}
+
+]

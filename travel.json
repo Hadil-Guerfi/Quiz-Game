@@ -1,0 +1,103 @@
+[{
+    "question":"Where are the Whitsunday Islands located?",
+    "answer_1":"Malaysia",
+    "answer_2":"Philippines",
+    "answer_3":"Australia",
+    "answer_4":"Vietnam",
+    "right_answer":"Australia",
+    "img":"travel-images/qst1.jpg"
+},
+
+{
+    "question":"Those Spanish Steps are found in which city?",
+    "answer_1":"Rome",
+    "answer_2":"Barcelon",
+    "answer_3":"Madrid",
+    "answer_4":"Lisbon",
+    "right_answer":"Rome",
+    "img":"travel-images/qst2.jpg"
+},
+
+{
+    "question":"Which two countries in South America are the Iguazu Falls part of",
+    "answer_1":"Ethiopia and Kenya",
+    "answer_2":"Switzerland and Italy",
+    "answer_3":"Brazil and Argentina",
+    "answer_4":"Tanzania and Zambia",
+    "right_answer":"Brazil and Argentina",
+    "img":"travel-images/qst3.jpg"
+
+},
+
+{
+    "question":"Where in the Middle East is this?",
+    "answer_1":"Qatar",
+    "answer_2":"Jordan",
+    "answer_3":"Egypt",
+    "answer_4":"Morocco",
+    "right_answer":"Jordan",
+    "img":"travel-images/qst4.jpg"
+
+},
+{
+    "question":"9. Where in Africa are these famous trees called Avenue of the Baobabs",
+    "answer_1":"Australia",
+    "answer_2":"Turkey",
+    "answer_3":"Madagascar",
+    "answer_4":"Kenya",
+    "right_answer":"Madagascar",
+    "img":"travel-images/qst5.jpg"
+
+},
+{
+    "question":"Hanoi is the capital of which country?",
+    "answer_1":"Cambodia",
+    "answer_2":"Laos",
+    "answer_3":"Thailand",
+    "answer_4":"Vietnam",
+    "right_answer":"Vietnam",
+    "img":"travel-images/qst6.jpg"
+
+},
+
+{
+    "question":"What is the official name of this tower?",
+    "answer_1":"St Stephen’s Tower",
+    "answer_2":"Big Ben",
+    "answer_3":"Elizabeth Tower",
+    "answer_4":"The Victoria Tower",
+    "right_answer":"Big Ben",
+    "img":"travel-images/qst7.jpg"
+},
+
+{
+    "question":"Where in Asia will you find the Mount Bromo ",
+    "answer_1":"Indonesia",
+    "answer_2":"Ethiopia",
+    "answer_3":"Nepal",
+    "answer_4":"Mexico",
+    "right_answer":"Indonesia",
+    "img":"travel-images/qst8.jpg"
+},
+
+{
+    "question":"Bohemian Switzerland National Park is in which country?",
+    "answer_1":"Germany",
+    "answer_2":"Netherlands",
+    "answer_3":"Czech Republic",
+    "answer_4":"France",
+    "right_answer":"Germany",
+    "img":"travel-images/qst9.jpg"
+},
+
+{
+    "question":" How high is Mount Everest?",
+    "answer_1":"1,550 m",
+    "answer_2":"2,900 m",
+    "answer_3":"8,849 m",
+    "answer_4":"25,600 m",
+    "right_answer":"8,849m",
+    "img":"travel-images/qst10.jpg"
+}
+
+]

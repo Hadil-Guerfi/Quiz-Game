@@ -1,0 +1,104 @@
+[{
+    "question":"Which artist painted the Mona Lisa",
+    "answer_1":"Pablo Picasso",
+    "answer_2":"Léonard de Vinci",
+    "answer_3":"Giotto Di Bondone",
+    "answer_4":"Paul Cézanne",
+    "right_answer":"Léonard de Vinci",
+    "img":"art-images/qst1.jpg"
+},
+
+{
+    "question":"What's the name of this famous art museum?",
+    "answer_1":"Musee d'Orsay",
+    "answer_2":"The Tate Modren",
+    "answer_3":"The Guggenheim",
+    "answer_4":"The Louvre",
+    "right_answer":"The Louvre",
+    "img":"art-images/qst2.jpg"
+},
+
+{
+    "question":"Graffiti comes from the Italian word graffiato, meaning what?",
+    "answer_1":"Spray Paint",
+    "answer_2":"Scratched",
+    "answer_3":"Vandalism",
+    "answer_4":"Wall Painting",
+    "right_answer":"Scratched",
+    "img":"art-images/qst3.jfif"
+   
+
+},
+
+{
+    "question":"What sort of art did Auguste Rodin create?",
+    "answer_1":"Paintings",
+    "answer_2":"Sculptures",
+    "answer_3":"Prints",
+    "answer_4":"Pencil Drawings",
+    "right_answer":"Sculptures",
+    "img":"art-images/qst4.jfif"
+
+},
+{
+    "question":"The artist called this piece",
+    "answer_1":"Skull With Burning Cigarette",
+    "answer_2":"Peasant Family",
+    "answer_3":"The Scream",
+    "answer_4":"Gilles",
+    "right_answer":"The Scream",
+    "img":"art-images/qst5.jfif"
+
+},
+{
+    "question":"Where was the famous artist Francisco de Goya from?",
+    "answer_1":"Scotland",
+    "answer_2":"France",
+    "answer_3":"Italy",
+    "answer_4":"Span",
+    "right_answer":"France",
+    "img":"art-images/qst6.jfif"
+
+},
+
+{
+    "question":"About how many paintings did Van Gogh create in his lifetime?",
+    "answer_1":"50",
+    "answer_2":"200",
+    "answer_3":"600",
+    "answer_4":"900",
+    "right_answer":"900",
+    "img":"art-images/qst7.jfif"
+},
+
+{
+    "question":"Which modern artist painted this Famous tableau?",
+    "answer_1":"Jockson Pollock",
+    "answer_2":"Jean-Michel Basquiat",
+    "answer_3":"Tracey Emin",
+    "answer_4":"Robert Rauschenberg",
+    "right_answer":"Jean-Michel Basquiat",
+    "img":"art-images/qst8.jfif"
+},
+
+{
+    "question":"This style of art was made famous by Pablo Picasso. What is it called?",
+    "answer_1":"Surrealism",
+    "answer_2":"Impressionism",
+    "answer_3":"Cubism",
+    "answer_4":"Pop Art",
+    "right_answer":"Cubism",
+    "img":"art-images/qst9.jfif"
+},
+
+{
+    "question":"Roy Lichtenstein was a leader of which artistic style?",
+    "answer_1":"Art Nouveau",
+    "answer_2":"American Pop Art",
+    "answer_3":"Fauvism",
+    "answer_4":"Abstract Art",
+    "right_answer":"American Pop Art",
+    "img":"art-images/qst10.jfif"
+}
+
+]
