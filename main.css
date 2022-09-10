@@ -334,7 +334,7 @@ ul {
 }
 
 .box .img .content h2 {
-    margin: -12px;
+    margin: -9px;
     font-size: 50px;
     text-align: center;
 }
@@ -518,7 +518,7 @@ ul {
         margin-bottom: 10px;
     }
     .box .img .content h2 {
-        font-size: 45px;
+        font-size: 38px;
     }
 }
 
@@ -682,6 +682,14 @@ input[disabled] {
     height: 350px;
 }
 
+/* .section .final .win img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
 
 .finalElt{
     position: relative;
